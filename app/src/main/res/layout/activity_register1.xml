@@ -1,0 +1,146 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#939292"
+        android:orientation="vertical"
+        >
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:background="#e8e8e7"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true">
+
+            <ImageView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_icon"
+                android:layout_marginLeft="10dp"/>
+
+
+            <TextView android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign up"
+                android:textColor="#2582C5"
+                android:layout_marginLeft="25dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                android:layout_gravity="center_horizontal|center_vertical"/>
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:gravity="right"
+                android:orientation="horizontal" >
+
+                <ImageView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="vertical"
+            android:background="@drawable/grey_background"
+
+            >
+
+            <ImageView android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center_horizontal"/>
+
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="name"
+                android:id="@+id/et_surname"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="30dp"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="surname"
+                android:id="@+id/et_firstname"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="phone number"
+                android:id="@+id/et_phoneno"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="email"
+                android:id="@+id/et_email"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+            <EditText android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:hint="Level"
+                android:id="@+id/et_level"
+                android:background="#f3f3f3"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="15dp"/>
+            <!--<Button android:layout_width="190dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:text="@string/Save"
+                android:id="@+id/btn_save"
+                android:textColor="#fff"
+                android:background="@drawable/btn"/>-->
+            <Button android:layout_width="190dp"
+                android:layout_height="38dp"
+                android:id="@+id/btn_next"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="16dp"
+                android:text="@string/next"
+                android:textColor="#fff"
+                android:background="@drawable/btn"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            >
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

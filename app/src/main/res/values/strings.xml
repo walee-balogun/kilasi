@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">kilasi</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_send">Send</string>
+    <string name="text_message">Write...</string>
+    <string name="title_activity_display_message">DisplayMessageActivity</string>
+    <string name="profile">My Profile </string>
+    <string name="classroom">My Classroom </string>
+    <string name="chat">My Chat </string>
+    <string name="title_activity_second">second</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="search">search</string>
+    <string name="title_activity_chat_fragment">ChatFragment</string>
+    <string name="title_activity_my_chat">MyChat</string>
+    <string name="title_activity_profile_fragment">ProfileFragment</string>
+    <string name="title_activity_my">MyActivity</string>
+    <string name="title_activity_login">login</string>
+    <string name="Save">Save</string>
+    <string name="next">Next</string>
+    <string name="hello_blank_fragment">hello</string>
+</resources>
