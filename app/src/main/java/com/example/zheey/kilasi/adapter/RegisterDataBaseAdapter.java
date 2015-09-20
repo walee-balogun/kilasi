@@ -52,7 +52,7 @@ public class RegisterDataBaseAdapter {
         ContentValues newValues = new ContentValues();
         newValues.put("MATRIC_NO",matricNo);
         newValues.put("SURNAME", surname);
-        newValues.put("FIRSTNAME",firstname);
+        newValues.put("FIRST_NAME",firstname);
         newValues.put("EMAIL", email);
         newValues.put("LEVEL",level);
         newValues.put("PHONE_NO",phoneNo);

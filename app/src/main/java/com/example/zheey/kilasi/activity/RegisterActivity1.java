@@ -38,6 +38,8 @@ public class RegisterActivity1 extends Activity {
         final EditText etEmail = (EditText) findViewById(R.id.et_email);
         final EditText etLevel = (EditText) findViewById(R.id.et_level);
 
+
+
         /*Button submitbtn = (Button) findViewById(R.id.save);
 
         submitbtn.setOnClickListener(new View.OnClickListener() {
@@ -56,13 +58,20 @@ public class RegisterActivity1 extends Activity {
 
         });*/
 
-        Button reg = (Button) findViewById(R.id.next);
-        reg.setOnClickListener(new View.OnClickListener() {
+        Button btnNext = (Button) findViewById(R.id.btn_next);
+        btnNext.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent(getApplicationContext(),RegisterActivity2.class);
+
+                surname = etSurname.getText().toString();
+                firstname = etFirstname.getText().toString();
+                phoneNo = etPhoneNo.getText().toString();
+                email = etEmail.getText().toString();
+                level = etLevel.getText().toString();
+
                 intent.putExtra(EXTRA_STUDENT_SURNAME,surname);
                 intent.putExtra(EXTRA_STUDENT_FIRSTNAME,firstname);
                 intent.putExtra(EXTRA_STUDENT_EMAIL,email);
